@@ -3,12 +3,13 @@ var rs = require('readline-sync')
 var num1 = rs.questionInt('qual o numero 1: ');
 
 
-var contador = 0;
-while (contador < num1){
-    if(num1 %2 == 0 ){
-        console.log('E PAR')
+var cont = 0;
+while (cont < num1){
+    var resto = cont %2
+    if(resto == 0 ){
+        console.log(cont)
     }
-    contador++;
+    cont++;
 }
 
 console.log(num1)
