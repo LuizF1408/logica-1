@@ -20,8 +20,6 @@ var resultado = 1
 var cont = 0
 while (cont < numeroPotencia) {
     resultado = resultado * numeroBase
-
     cont++;
 }
-
 console.log(resultado)
