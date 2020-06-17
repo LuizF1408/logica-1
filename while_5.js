@@ -23,3 +23,8 @@ while (cont < numeroPotencia) {
     cont++;
 }
 console.log(resultado)
+/* ****************************************** 
+outra maneira de ter feito
+*/
+var potencia = numeroBase ** numeroPotencia
+console.log(potencia)
