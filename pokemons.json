@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "pikachu",
+        "habilidades": [
+            "static",
+            "lightning-rod"
+        ],
+        "tipos": [
+            "electric"
+        ]
+    }
+]

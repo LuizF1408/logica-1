@@ -10,9 +10,9 @@ while (true) {
     console.log(resultado)
 
     var fatorial = rs.keyIn(' Deseja fazer outra fatorial? [Y] - Sim/ [N] - Não')
-    if (fatorial == true) {
+    if (fatorial == false) {
         break
-    }
+    }                                                                           
 }
 
 
