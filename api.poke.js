@@ -6,7 +6,7 @@ const fs = require('fs')
 
 var stop = false
 
-while (stop != true) {
+// while (stop != true) {
 
 
 
@@ -21,7 +21,7 @@ while (stop != true) {
 
     stop = !rs.keyInYN("Gostaria de pesquisar outro pokemon? ")
 
-}
+// }
 
 function salvarPokemon() {
     var pokemons = []
